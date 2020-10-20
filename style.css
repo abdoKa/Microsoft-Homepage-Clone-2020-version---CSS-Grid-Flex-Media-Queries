@@ -62,3 +62,73 @@ ul {
     flex: 1;
     margin-left: 20px;
 }
+
+
+/* shop now button  */
+
+span.btns {
+    display: inline-flex;
+    padding: 10px 0px;
+}
+
+a.btn-six-users {
+    padding-right: 30px;
+}
+
+a.btn-one-user {
+    padding-left: 30px;
+}
+
+span.btns {
+    padding-top: 20px;
+}
+
+.btn-six-users {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #000000;
+    color: #fff;
+    font-size: 15px;
+}
+
+.btn-one-user {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: 600;
+    padding: 10px 20px;
+    background: transparent;
+    color: #000000;
+    font-size: 15px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+
+/* Showcase  */
+
+.p-description {
+    text-align: left;
+    width: 500px;
+}
+
+.showcase {
+    width: 100%;
+    height: 400px;
+    background: url('./images/showcase.png') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+    padding: 10% 5%;
+}
+
+.showcase h2,
+.showcase p {
+    margin-bottom: 10px;
+}
