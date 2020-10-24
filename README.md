@@ -10,3 +10,7 @@ Clone a Microsoft Home Page
 </li>JS</li>
 </ul>
 <h6>This is a responsive page using @media queries</h6>
+<p>this is how it's look on mobile devices</p>
+<img src="/images/desktop-microsoft.png">
+
+CREATED BY @abdoKa
