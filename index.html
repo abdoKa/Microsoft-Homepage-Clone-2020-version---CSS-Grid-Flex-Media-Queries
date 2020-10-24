@@ -12,12 +12,17 @@
 
 <body>
 
+    <div class="menu-btn">
+        <i class="fas fa-bars fa-2x"></i>
+    </div>
+
+
     <div class="container">
         <!--NAV BAR-->
         <nav class="main-nav">
             <img src="/images/logo.png" alt="microsoft-logo" class="logo">
 
-            <ul class="main-menu">
+            <ul class="main-menu ">
                 <li>
                     <a href="#">Office</a></li>
                 <li>
@@ -31,7 +36,7 @@
                 <li>
                     <a href="#">Support</a></li>
             </ul>
-            <ul class="right__menu">
+            <ul class="right-menu">
                 <li>
                     <a href="#"></a> <i class="fas fa-search"></i>
                 </li>
@@ -213,7 +218,9 @@
 
     </footer>
 
-
+    <script>
+        document.querySelector('.menu-btn').addEventListener('click', () => document.querySelector('.main-menu').classList.toggle('show'));
+    </script>
 </body>
 
 </html>
